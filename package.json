@@ -1,0 +1,21 @@
+{
+  "name": "multi-screen-preview",
+  "version": "1.0.0",
+  "description": "Bir web sitesini masaüstü, telefon ve tablet görünümüyle yan yana açan masaüstü uygulaması (responsive test aracı)",
+  "main": "main.js",
+  "license": "MIT",
+  "keywords": [
+    "responsive",
+    "responsive-design",
+    "mobile-preview",
+    "device-preview",
+    "electron",
+    "web-development"
+  ],
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^38.0.0"
+  }
+}

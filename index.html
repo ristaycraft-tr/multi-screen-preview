@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:">
+  <title>Yan Ekran</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="bar">
+    <button id="back" title="Geri">◀</button>
+    <button id="forward" title="İleri">▶</button>
+    <button id="reload" title="Yenile">⟳</button>
+    <form id="form">
+      <input id="url" type="text" spellcheck="false" autocomplete="off"
+             placeholder="Site adresini yaz ya da yapıştır, Enter'a bas (ör. ristaycraft.com)">
+    </form>
+    <label class="chk"><input type="checkbox" id="chk-desktop" checked> Masaüstü</label>
+    <label class="chk"><input type="checkbox" id="chk-phone" checked> Telefon</label>
+    <label class="chk"><input type="checkbox" id="chk-tablet" checked> Tablet</label>
+    <label class="chk"><input type="checkbox" id="chk-sync" checked> Eşitle</label>
+    <button id="rotate" title="Telefon ve tableti yatay / dikey çevir">⟲ Çevir</button>
+  </header>
+  <div id="status"></div>
+  <main id="panes"></main>
+  <script src="renderer.js"></script>
+</body>
+</html>
